@@ -1,4 +1,4 @@
-Asana3_API.Maui - MAUI Task and Project Mangament Application 
+Asana3_API.Maui - MAUI Task and Project Management Application 
 Asana3 is a .NET MAUI application which allows users to manage projects and their ToDo task. 
 This application communicates with a local API using HTTP request and then displays data through an MVVM architecture 
 
