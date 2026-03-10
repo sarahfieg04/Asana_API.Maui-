@@ -1,0 +1,25 @@
+<Shell
+    x:Class="Asana3.Maui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Asana3.Maui"
+    xmlns:views="clr-namespace:Asana3.Maui.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Asana.Maui">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent 
+        Title ="Projects"
+        ContentTemplate="{DataTemplate views:ProjectView}"
+        Route ="ProjectView" />
+    <ShellContent
+        Title="ToDo Details"
+        ContentTemplate="{DataTemplate views:ToDoDetailView}"
+        Route="ToDoDetails" />
+
+   
+</Shell>
